@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: goldenrod;
+  font-size: 40px;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(./240_F_249687268_Yl4AswCdwBQS7NA6hczKq0pfnjQs02UP.jpg);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+  font-weight: bold;
+}
+#message-el {
+  font-style: italic;
+}
+p {
+  font-size: 25px;
+}
+button {
+  background-color: goldenrod;
+  border: none;
+  color: #016f32;
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+  height: 30px;
+  border-radius: 3px;
+}
+#player-el {
+  font-size: medium;
+}
